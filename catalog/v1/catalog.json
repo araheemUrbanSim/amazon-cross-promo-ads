@@ -1,0 +1,2286 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "assets-v5-complete-owner-metadata",
+  "generatedAtUtc": "2026-10-01T00:00:00Z",
+  "enabled": true,
+  "campaigns": [
+    {
+      "campaignId": "2048-ball-run-v1",
+      "gameId": "2048-ball-run",
+      "title": "2048 Ball Run",
+      "enabled": true,
+      "packageName": "com.img.ballrun.game.amazon",
+      "asin": "B0B9YPCB31",
+      "storeWebUrl": "https://www.amazon.com/dp/B0B9YPCB31",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "2048-ball-run-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/2048-ball-run/v1/banner.png",
+          "sha256": "f4c932bd2ab56688029f62d7b4fc0a93e99525e47c496426c39b0ee6a4ba7a05",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 309294
+        },
+        {
+          "creativeId": "2048-ball-run-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/2048-ball-run/v1/interstitial-portrait.jpg",
+          "sha256": "987d194b6040aa270056e3a64a53f767ffacda077c10ca04a345c5376da6ccfe",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 590117
+        },
+        {
+          "creativeId": "2048-ball-run-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/2048-ball-run/v1/mrec.jpg",
+          "sha256": "08edd79b1358d2f97c80a52f9fa41862f0a7da1ac83613c6850b695db110dafc",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 360196
+        },
+        {
+          "creativeId": "2048-ball-run-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "2cd067d389a71329eafb23ff2d9719daf3dbc1031d03c6d15f3b0409e349783c",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 483531,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/2048-ball-run/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "american-firefighter-truck-simulator-v1",
+      "gameId": "american-firefighter-truck-simulator",
+      "title": "American Firefighter Truck Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.firefighter.fire.rescue.truck.sim.game",
+      "asin": "B0CWFZB9N1",
+      "storeWebUrl": "https://www.amazon.com/dp/B0CWFZB9N1",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "american-firefighter-truck-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/american-firefighter-truck-simulator/v1/banner.png",
+          "sha256": "e83b6afac93ee746f7ae92cb81797aa02195df15db319556beda9959bce18fc9",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 331254
+        },
+        {
+          "creativeId": "american-firefighter-truck-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/american-firefighter-truck-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "eb4a250bb7783c52f6755cb084fc3308d5a3005ed0e3bc67b44353bb68af0f3c",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 826079
+        },
+        {
+          "creativeId": "american-firefighter-truck-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/american-firefighter-truck-simulator/v1/mrec.jpg",
+          "sha256": "8ebb9e35e3269ff2d16e51c53393ee71f3a231f02a51a4befa89f13e9f021bc6",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 488296
+        },
+        {
+          "creativeId": "american-firefighter-truck-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "895e94d69a3027852b38d9fb95df4f4dfee1cf1f17b765c47a2e3b849d33c074",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 786831,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/american-firefighter-truck-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "archery-animal-hunting-v1",
+      "gameId": "archery-animal-hunting",
+      "title": "Archery Animal Hunting",
+      "enabled": true,
+      "packageName": "com.amz.img.archery.hunt.animal.hunting.game",
+      "asin": "B0H3Q7PDZK",
+      "storeWebUrl": "https://www.amazon.com/dp/B0H3Q7PDZK",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "archery-animal-hunting-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/archery-animal-hunting/v1/banner.png",
+          "sha256": "0ce9bc3f6bbe6d36106429dc84b7574f084da1a8e876077bf3fed46f45db3055",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 464214
+        },
+        {
+          "creativeId": "archery-animal-hunting-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/archery-animal-hunting/v1/interstitial-portrait.jpg",
+          "sha256": "48e8233394f887df47a305487045f77195d733350b21151d02e3fce2bb161106",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 805047
+        },
+        {
+          "creativeId": "archery-animal-hunting-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/archery-animal-hunting/v1/mrec.jpg",
+          "sha256": "ebb9cc7e1f29fb568a72c8f9c47f15484a9121ead6ba2dd71dbbc826c502fede",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 598533
+        },
+        {
+          "creativeId": "archery-animal-hunting-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "ebea138684aec1df4c4cc189cc9700e52dc4d8b3eb3b926f43142985cd4ec22b",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 877001,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/archery-animal-hunting/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "call-of-us-army-sniper-duty-v1",
+      "gameId": "call-of-us-army-sniper-duty",
+      "title": "Call of US Army Sniper Duty",
+      "enabled": true,
+      "packageName": "com.amz.img.fps.commando.strike.gun.games",
+      "asin": "B096MV9TST",
+      "storeWebUrl": "https://www.amazon.com/dp/B096MV9TST",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "call-of-us-army-sniper-duty-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/call-of-us-army-sniper-duty/v1/banner.png",
+          "sha256": "1ee9ef644dbd6f057f83d32b100f4083d6baa5ea4f23271b81f4600b81e008e9",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 372411
+        },
+        {
+          "creativeId": "call-of-us-army-sniper-duty-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/call-of-us-army-sniper-duty/v1/interstitial-portrait.jpg",
+          "sha256": "96dfa98b3820f1945bd3a7b3ae48176a18d36613646e6b00fcb03143b3761210",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1021219
+        },
+        {
+          "creativeId": "call-of-us-army-sniper-duty-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/call-of-us-army-sniper-duty/v1/mrec.jpg",
+          "sha256": "a85822b515cd8b728f71bebde77787a2c71c96455c4d8f73064a3a0595079034",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 641214
+        },
+        {
+          "creativeId": "call-of-us-army-sniper-duty-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "761da21b2bf69a2a4edaf8cc190dd48f6d0f0e5dc3a6b9c781d337b23ac43a90",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 717065,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/call-of-us-army-sniper-duty/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "car-crash-demolition-derby-v1",
+      "gameId": "car-crash-demolition-derby",
+      "title": "Car Crash Demolition Derby",
+      "enabled": true,
+      "packageName": "com.amz.img.demolition.derby.car.crash.stunt.car.derby.games",
+      "asin": "B0BWZXJZQW",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BWZXJZQW",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "car-crash-demolition-derby-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/car-crash-demolition-derby/v1/banner.png",
+          "sha256": "1150ea2cb7e49823e1e52e53370dbe6fe8d63e2e9103f6b91e154f2537af25c2",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 464569
+        },
+        {
+          "creativeId": "car-crash-demolition-derby-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/car-crash-demolition-derby/v1/interstitial-portrait.jpg",
+          "sha256": "347dc05003aea96e3c881753e259e6b8371fdfe438eb419dc9895ac8e60470d9",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1086662
+        },
+        {
+          "creativeId": "car-crash-demolition-derby-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/car-crash-demolition-derby/v1/mrec.jpg",
+          "sha256": "d4b1f7ec927d28a3c6833a166f87e19c310a9a9a7dd57effefd1a3b170c0c78c",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 707920
+        },
+        {
+          "creativeId": "car-crash-demolition-derby-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "d135f5aef01e8c20e39cbf6036c29bad2b1fe5944e0a71ffec6bf6344fd8b445",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 1135751,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/car-crash-demolition-derby/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "city-building-excavator-simulator-v1",
+      "gameId": "city-building-excavator-simulator",
+      "title": "City Building Excavator Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.city.builder.construction.games",
+      "asin": "B0C8HYD74B",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C8HYD74B",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "city-building-excavator-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/city-building-excavator-simulator/v1/banner.png",
+          "sha256": "4a186fecfa8e7cca0215b23f37c6696c4e64ce792bdf01c68df3ac38929fe2e1",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 384790
+        },
+        {
+          "creativeId": "city-building-excavator-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/city-building-excavator-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "a5571b2dd7c7c0ddc6a3a5b4bae7a982926a6781e247149204acdaf6edbf9cff",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 881795
+        },
+        {
+          "creativeId": "city-building-excavator-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/city-building-excavator-simulator/v1/mrec.jpg",
+          "sha256": "97259990023ada40bbbcc347d2c7db8dbcddf5db494e96e4c02980e31bfe2c62",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 598551
+        },
+        {
+          "creativeId": "city-building-excavator-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "da0d702028355c994aa9db0c78b22f5f3deb60ae8457ac74cbebd27736b0f858",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 829409,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/city-building-excavator-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "dog-simulator-v1",
+      "gameId": "dog-simulator",
+      "title": "Dog Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.pet.dog.simulator.animal.life.games",
+      "asin": "B0BX32T33M",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BX32T33M",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "dog-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/dog-simulator/v1/banner.png",
+          "sha256": "6f82b5d5c197e71c20e399c1bad23a9f1e96a8b717fddbcd64342f442c4c3d6c",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 364462
+        },
+        {
+          "creativeId": "dog-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/dog-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "3b2546cd4923e5ed431529e402d06cdbc4c0b3a12477816ea314345bc2bc4009",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 911346
+        },
+        {
+          "creativeId": "dog-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/dog-simulator/v1/mrec.jpg",
+          "sha256": "6b25faf208061747925f930cf14567457cee8ae7c306956d9a46a597e17f45c4",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 662361
+        },
+        {
+          "creativeId": "dog-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "80b9ef24e323e0969141bcd70299c624191ea896c849f254d274fbb0ebd6ddd7",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 1066714,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/dog-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "extreme-bike-games-3d-v1",
+      "gameId": "extreme-bike-games-3d",
+      "title": "Extreme Bike Games 3D",
+      "enabled": true,
+      "packageName": "com.amz.img.traffic.bike.racing.game",
+      "asin": "B0CVRW788Y",
+      "storeWebUrl": "https://www.amazon.com/dp/B0CVRW788Y",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "extreme-bike-games-3d-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-bike-games-3d/v1/banner.png",
+          "sha256": "41d21a11d1b7f42bf797b6ab19f5470d2e88095317687eafc610ba172ed73ead",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 453520
+        },
+        {
+          "creativeId": "extreme-bike-games-3d-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-bike-games-3d/v1/interstitial-portrait.jpg",
+          "sha256": "6acf0699dd90362c4836d01c71ef6ff7458d69382de169b0641347b30129ac7e",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1017769
+        },
+        {
+          "creativeId": "extreme-bike-games-3d-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-bike-games-3d/v1/mrec.jpg",
+          "sha256": "6b8001baa3615f8e07439ef02496d1fd408555a5ccf0dfa3257de30b2bd8fd41",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 672180
+        },
+        {
+          "creativeId": "extreme-bike-games-3d-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "0384395119a3e82fe82716abf4d1dd01f9c918882776943d8589c239d67c105c",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 1141452,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-bike-games-3d/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "extreme-trail-bike-stunt-v1",
+      "gameId": "extreme-trail-bike-stunt",
+      "title": "Extreme Trail Bike Stunt",
+      "enabled": true,
+      "packageName": "com.amz.img.bike.stunt.tricks.master.trial.bike.games",
+      "asin": "B0C7HGHL31",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C7HGHL31",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "extreme-trail-bike-stunt-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-trail-bike-stunt/v1/banner.png",
+          "sha256": "a299f8ead0afe923594dee2de2669ce1b06550f080b217f891a36c640df46ed2",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 362814
+        },
+        {
+          "creativeId": "extreme-trail-bike-stunt-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-trail-bike-stunt/v1/interstitial-portrait.jpg",
+          "sha256": "04ac2e71f7d60537a62dda7c8c47a2588b64813e41209a025d718419006eb32a",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 915873
+        },
+        {
+          "creativeId": "extreme-trail-bike-stunt-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-trail-bike-stunt/v1/mrec.jpg",
+          "sha256": "8685c85f7cfba7d530b0d4426bd4f8d5f38d3762f65d206b99c89a1876c1c17a",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 652050
+        },
+        {
+          "creativeId": "extreme-trail-bike-stunt-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "e1618802fcc1368b8a06c0f0c0055bc583364d72909720d34fa88de623ca3ab3",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 1058293,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/extreme-trail-bike-stunt/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "gangster-vegas-crime-simulator-v1",
+      "gameId": "gangster-vegas-crime-simulator",
+      "title": "Gangster Vegas Crime Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.real.gangster.crime.city.games",
+      "asin": "B0C7GZG1YH",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C7GZG1YH",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "gangster-vegas-crime-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gangster-vegas-crime-simulator/v1/banner.png",
+          "sha256": "87982cc1c56c43f1eb943e580176365ccc6a63af8e58e2ca56e11ed0391b4099",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 392635
+        },
+        {
+          "creativeId": "gangster-vegas-crime-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gangster-vegas-crime-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "9525dc43ffd6b02f5dd1d6adc8002d09e85ef85adefbdf915edabaecd8ff1130",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 878430
+        },
+        {
+          "creativeId": "gangster-vegas-crime-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gangster-vegas-crime-simulator/v1/mrec.jpg",
+          "sha256": "9d6d70fbc74882eb2fd22b52ace5001f519f5d6a180563690456c6912c3cbea6",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 643823
+        },
+        {
+          "creativeId": "gangster-vegas-crime-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "d1a3b5ee79654e54155c3c78ffb84b7714d61e2a5645ba8ad2061335eed1a602",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 980364,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gangster-vegas-crime-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "gas-station-car-mechanic-v1",
+      "gameId": "gas-station-car-mechanic",
+      "title": "Gas Station Car Mechanic",
+      "enabled": true,
+      "packageName": "com.amz.img.gas.station.junkyard.simulator",
+      "asin": "B0CJ983B6K",
+      "storeWebUrl": "https://www.amazon.com/dp/B0CJ983B6K",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "gas-station-car-mechanic-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gas-station-car-mechanic/v1/banner.png",
+          "sha256": "268feb0a88965a3f36f4945030ea8f4051777ea98d586d0816398c71893fcdbd",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 387923
+        },
+        {
+          "creativeId": "gas-station-car-mechanic-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gas-station-car-mechanic/v1/interstitial-portrait.jpg",
+          "sha256": "682eaa3788f2799d36e778d14f8d45d8e20df867b2edabb9ba9950402ac433b2",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 897434
+        },
+        {
+          "creativeId": "gas-station-car-mechanic-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gas-station-car-mechanic/v1/mrec.jpg",
+          "sha256": "392cda93208cc6382be4aa32d05924714d892846b147fa3f6c1967650c63385d",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 568526
+        },
+        {
+          "creativeId": "gas-station-car-mechanic-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "23cdcf97255bfe247fb68d4661663c012eb615144ccbb33b291de577280a9c34",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 978961,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/gas-station-car-mechanic/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "grand-prison-escape-v1",
+      "gameId": "grand-prison-escape",
+      "title": "Grand Prison Escape",
+      "enabled": true,
+      "packageName": "com.amz.img.prison.jail.escape.game",
+      "asin": "B0FSKRNTXX",
+      "storeWebUrl": "https://www.amazon.com/dp/B0FSKRNTXX",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "grand-prison-escape-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/grand-prison-escape/v1/banner.png",
+          "sha256": "3cf5c44b2faf483cfa015111fa9028c7261e79d0f5a1c13b83cfd63b803ca3ab",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 364329
+        },
+        {
+          "creativeId": "grand-prison-escape-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/grand-prison-escape/v1/interstitial-portrait.jpg",
+          "sha256": "22b19a2f7e298ca4a27cf55791c1e60de488f9ff2d529464aef6919e87a2480c",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 948184
+        },
+        {
+          "creativeId": "grand-prison-escape-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/grand-prison-escape/v1/mrec.jpg",
+          "sha256": "a461c0be5cc5e7ce856bd5d6d6529f5b195d12a8a8b9533e0d6c6297633af23d",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 637287
+        },
+        {
+          "creativeId": "grand-prison-escape-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "c715b1e5960155a230872496460863e7d6608884bac9e9876fcd2e148c5080b9",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 884017,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/grand-prison-escape/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "hair-tattoo-barber-shop-v1",
+      "gameId": "hair-tattoo-barber-shop",
+      "title": "Hair Tattoo Barber Shop",
+      "enabled": true,
+      "packageName": "com.amz.img.barber.shop.hair.salon.game",
+      "asin": "B0BR9WV6LF",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BR9WV6LF",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "hair-tattoo-barber-shop-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/hair-tattoo-barber-shop/v1/banner.png",
+          "sha256": "e58af1cdc4e22f7239f0c510a85654e5d668c35a551e6c33eacc8e13ce5d1721",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 348317
+        },
+        {
+          "creativeId": "hair-tattoo-barber-shop-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/hair-tattoo-barber-shop/v1/interstitial-portrait.jpg",
+          "sha256": "a31367ca1368895de895172a8c0f0212eb7b4fafc350f68c50cbb5750d486c3b",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 727868
+        },
+        {
+          "creativeId": "hair-tattoo-barber-shop-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/hair-tattoo-barber-shop/v1/mrec.jpg",
+          "sha256": "928d43e4f9159b503accc2bbbfbd08cd6c8e1ebf16215f430da68f25f433c4d0",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 416073
+        },
+        {
+          "creativeId": "hair-tattoo-barber-shop-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "9129b932e155086773cf0214f7b787fedca6e4e427c97e160d7b10aaa19ed9c2",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 645290,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/hair-tattoo-barber-shop/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "heavy-snow-excavator-crane-operator-v1",
+      "gameId": "heavy-snow-excavator-crane-operator",
+      "title": "Heavy Snow Excavator Crane Operator",
+      "enabled": true,
+      "packageName": "com.amz.img.snow.excavator.crane.simulator.game",
+      "asin": "B0C7L5DXCP",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C7L5DXCP",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "heavy-snow-excavator-crane-operator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/heavy-snow-excavator-crane-operator/v1/banner.png",
+          "sha256": "37ec8274dc27999919617669f7725e291ca10fa87cf63a4ba3227d41c09e9133",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 447427
+        },
+        {
+          "creativeId": "heavy-snow-excavator-crane-operator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/heavy-snow-excavator-crane-operator/v1/interstitial-portrait.jpg",
+          "sha256": "d3776cf6f102b28a61c327a3a52266a3dac104df172c5568de95bc531e5c8fe9",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1034359
+        },
+        {
+          "creativeId": "heavy-snow-excavator-crane-operator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/heavy-snow-excavator-crane-operator/v1/mrec.jpg",
+          "sha256": "25ba557b2e97c91c8b24628c70d8742dd620bb22fc3c7531bb028cf137be9469",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 756968
+        },
+        {
+          "creativeId": "heavy-snow-excavator-crane-operator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "8c983c31cab3a617d4841648a66c7bd6e7d5b49c30f144c08bcc3f193eb57c95",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 624477,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/heavy-snow-excavator-crane-operator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "home-design-game-v1",
+      "gameId": "home-design-game",
+      "title": "Home Design Game",
+      "enabled": true,
+      "packageName": "com.amz.img.dream.house.design.game",
+      "asin": "B0FNX3QXGB",
+      "storeWebUrl": "https://www.amazon.com/dp/B0FNX3QXGB",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "home-design-game-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/home-design-game/v1/banner.png",
+          "sha256": "21b69ccb457da86cbe06963a83d3a572dcea46df41fd22242b50835d5d15628c",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 394829
+        },
+        {
+          "creativeId": "home-design-game-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/home-design-game/v1/interstitial-portrait.jpg",
+          "sha256": "78b74a736cf4cc4d344e9b2611c3940b0295a209d063055a2d01729c340e6332",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 888244
+        },
+        {
+          "creativeId": "home-design-game-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/home-design-game/v1/mrec.jpg",
+          "sha256": "6aabfd20753ee1f5f83bc812b8179759162579feb62497c4e6cdad59ebe9a65d",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 616946
+        },
+        {
+          "creativeId": "home-design-game-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "651080ba0d5861c79d1d010d5fb9344c434af9ec1062ed2ed6e9695cd8097dd0",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 712043,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/home-design-game/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "horror-escape-scary-ghost-games-v1",
+      "gameId": "horror-escape-scary-ghost-games",
+      "title": "Horror Escape: Scary Ghost Games",
+      "enabled": true,
+      "packageName": "com.img.amz.scary.haunted.house.ghost.killer",
+      "asin": "B0BB75P2JT",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BB75P2JT",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "horror-escape-scary-ghost-games-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/horror-escape-scary-ghost-games/v1/banner.png",
+          "sha256": "4006ac036b5c22390456ada9d4b53ba57cb8aea08eb35f54e5f99ff329635a9d",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 409102
+        },
+        {
+          "creativeId": "horror-escape-scary-ghost-games-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/horror-escape-scary-ghost-games/v1/interstitial-portrait.jpg",
+          "sha256": "a2be4d866968de4df3175c922b8c3a8d1a9071d5adaea2d0ca59f3c75f05c075",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 820044
+        },
+        {
+          "creativeId": "horror-escape-scary-ghost-games-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/horror-escape-scary-ghost-games/v1/mrec.jpg",
+          "sha256": "cb250591746434e9b92d3f071bf3ec7208b19493eacad0a1e02ab42ec44a2b8b",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 485947
+        },
+        {
+          "creativeId": "horror-escape-scary-ghost-games-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "b91f34e9dad1698fac48cedae0ed3f01a917d1e4476c26f9b3fb1899ec4903d3",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 322853,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/horror-escape-scary-ghost-games/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "ice-cream-maker-v1",
+      "gameId": "ice-cream-maker",
+      "title": "Ice Cream Maker",
+      "enabled": true,
+      "packageName": "com.amz.img.icecream.cone.maker.games",
+      "asin": "B0D9H8F8FZ",
+      "storeWebUrl": "https://www.amazon.com/dp/B0D9H8F8FZ",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "ice-cream-maker-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ice-cream-maker/v1/banner.png",
+          "sha256": "9c93e9381dfe36db46e3ca179c9e8be2f97d2d5936159101d196663ba9bcc3b6",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 386883
+        },
+        {
+          "creativeId": "ice-cream-maker-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ice-cream-maker/v1/interstitial-portrait.jpg",
+          "sha256": "a3a76de22acab8430fb5388a21800505f7bdb2fdafcb982b6c26d66426de4e9c",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 864837
+        },
+        {
+          "creativeId": "ice-cream-maker-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ice-cream-maker/v1/mrec.jpg",
+          "sha256": "6610c12cbc410344bd54cfbf9c7102f038846d4213ed77e2d0ac024b077df19a",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 618989
+        },
+        {
+          "creativeId": "ice-cream-maker-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "1b949d4f399868119607e2f19f0c882d661e020c685941868beeca40159f46f2",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 589526,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ice-cream-maker/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "jurassic-dino-sniper-shooter-v1",
+      "gameId": "jurassic-dino-sniper-shooter",
+      "title": "Jurassic Dino Sniper Shooter",
+      "enabled": true,
+      "packageName": "com.amz.img.dino.hunter.game",
+      "asin": "B0C7HKBCXZ",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C7HKBCXZ",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "jurassic-dino-sniper-shooter-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/jurassic-dino-sniper-shooter/v1/banner.png",
+          "sha256": "93c6e6ae72b17f086fea750bcf2a03e1b87d68e6f2c7e07351d4df2c65e0528a",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 398355
+        },
+        {
+          "creativeId": "jurassic-dino-sniper-shooter-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/jurassic-dino-sniper-shooter/v1/interstitial-portrait.jpg",
+          "sha256": "d82150ed800c76fba161b0a5a2106682d1274e2ccf3d83a1cd0c6c0a45e739b2",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1007843
+        },
+        {
+          "creativeId": "jurassic-dino-sniper-shooter-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/jurassic-dino-sniper-shooter/v1/mrec.jpg",
+          "sha256": "048536a5ae45bd1389086270763d4b86f11b1cc8255a9b0a6de20fe12cdd2c4f",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 732501
+        },
+        {
+          "creativeId": "jurassic-dino-sniper-shooter-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "46b47c6e22047fc79143adf7e2f4c0c862c6d020b9ad78330c240adc165f5c3a",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 599696,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/jurassic-dino-sniper-shooter/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "monster-truck-derby-stunt-v1",
+      "gameId": "monster-truck-derby-stunt",
+      "title": "Monster Truck Derby Stunt",
+      "enabled": true,
+      "packageName": "com.img.amz.demolition.derby.monster.truck",
+      "asin": "B0BB7Q5T5B",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BB7Q5T5B",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "monster-truck-derby-stunt-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/monster-truck-derby-stunt/v1/banner.png",
+          "sha256": "abcb2f02865fd27cd60b94808c464a9c47e00e935ccab962cdd0964d491805cf",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 395863
+        },
+        {
+          "creativeId": "monster-truck-derby-stunt-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/monster-truck-derby-stunt/v1/interstitial-portrait.jpg",
+          "sha256": "a8571acb422a15eb873433aae4fb4489061f088ab5a9ffa12dbcbd1012034a6b",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1052825
+        },
+        {
+          "creativeId": "monster-truck-derby-stunt-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/monster-truck-derby-stunt/v1/mrec.jpg",
+          "sha256": "149afe9987bd3e7baec81a3de95a819d6efb28e8a948c231532d4124bd1bf62a",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 737142
+        },
+        {
+          "creativeId": "monster-truck-derby-stunt-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "ce0d55b1cbe7c97a56c711e28d6ff9c72fa30640a23acc471322d13a1a393140",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 713184,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/monster-truck-derby-stunt/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "police-car-parking-3d-v1",
+      "gameId": "police-car-parking-3d",
+      "title": "Police Car Parking 3D",
+      "enabled": true,
+      "packageName": "com.amz.img.police.car.parking.simulator",
+      "asin": "B0C7L44M35",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C7L44M35",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "police-car-parking-3d-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/police-car-parking-3d/v1/banner.png",
+          "sha256": "60014d8f3aa34b295827af709c085352edbe6fa0c4c072c23fdbb3ecd39ad1ed",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 368803
+        },
+        {
+          "creativeId": "police-car-parking-3d-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/police-car-parking-3d/v1/interstitial-portrait.jpg",
+          "sha256": "837a47a8544ab8c729c1d782144ac6c9d27f90e51f3cd01a58e67f06d54f95e6",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 780235
+        },
+        {
+          "creativeId": "police-car-parking-3d-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/police-car-parking-3d/v1/mrec.jpg",
+          "sha256": "f8398e2024e6c76d1926fb1160d09803538cf557f20fb9e92ec9dc6517e23e86",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 463208
+        },
+        {
+          "creativeId": "police-car-parking-3d-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "7383f83c438f7d0c44070cb8239e7f9acae9950517aaa70e308b290e3f4d6aa6",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 534895,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/police-car-parking-3d/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "real-airplane-flying-simulator-v1",
+      "gameId": "real-airplane-flying-simulator",
+      "title": "Real Airplane Flying Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.real.airplane.flight.simulator.game",
+      "asin": "B0CF9T6236",
+      "storeWebUrl": "https://www.amazon.com/dp/B0CF9T6236",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "real-airplane-flying-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-airplane-flying-simulator/v1/banner.png",
+          "sha256": "71890b5cc5f322600dae25bed298cf777f123139fa732648d98b6335cf4d2246",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 398389
+        },
+        {
+          "creativeId": "real-airplane-flying-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-airplane-flying-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "6282037c7e7441ccb6ed79f8e3e22acb0473c72cc4e7dde9f773022d1fd22364",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 738041
+        },
+        {
+          "creativeId": "real-airplane-flying-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-airplane-flying-simulator/v1/mrec.jpg",
+          "sha256": "9d1eb5199711a2987a8249032488f7417406c69cc32bacbba91f31cec5abace1",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 524431
+        },
+        {
+          "creativeId": "real-airplane-flying-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "3aa87a80cb0d08919aac5e33d91f4bba16a43bdbea1bf6fc18e3fc33396cb5f4",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 572815,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-airplane-flying-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "real-car-mechanic-v1",
+      "gameId": "real-car-mechanic",
+      "title": "Real Car Mechanic",
+      "enabled": true,
+      "packageName": "com.amz.img.car.mechanic.workshop.simulator",
+      "asin": "B0BLCMF2JH",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BLCMF2JH",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "real-car-mechanic-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-mechanic/v1/banner.png",
+          "sha256": "4a3e8d556955a96a338e3b65e50754e727f4ad2cd121eab943952dffbdd0a61a",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 326714
+        },
+        {
+          "creativeId": "real-car-mechanic-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-mechanic/v1/interstitial-portrait.jpg",
+          "sha256": "03c06a76e6644ad1de8d7148db19ecb987b898323800a35ad05cc3eb354c5361",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 772110
+        },
+        {
+          "creativeId": "real-car-mechanic-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-mechanic/v1/mrec.jpg",
+          "sha256": "6ff6a45a0ee1cd788c1f9d6447e4c20385a319b27cedf48bb13372915943c220",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 450859
+        },
+        {
+          "creativeId": "real-car-mechanic-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "bc540dc8438f68b1fcfba38c75f8a4e13b56916e929059479080108553ebbff0",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 538795,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-mechanic/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "real-car-parking-3d-v1",
+      "gameId": "real-car-parking-3d",
+      "title": "Real Car Parking 3D",
+      "enabled": true,
+      "packageName": "com.amz.img.real.car.parking.simulator",
+      "asin": "B0C8HYR14J",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C8HYR14J",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "real-car-parking-3d-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-parking-3d/v1/banner.png",
+          "sha256": "5606f0979bf8b4fa67de0f85da59aa463c5176b4b771fa5a27275f22d67f950d",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 408430
+        },
+        {
+          "creativeId": "real-car-parking-3d-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-parking-3d/v1/interstitial-portrait.jpg",
+          "sha256": "b00a5e443d3070fcb8869a0573e34c69fb7a710025e35ca6a40e74e6b68d76e1",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 950982
+        },
+        {
+          "creativeId": "real-car-parking-3d-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-parking-3d/v1/mrec.jpg",
+          "sha256": "9ea009ec6817a1c81aa21a61c08dccf68839d5d99c4cf0ed6b326489237a6bcd",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 586303
+        },
+        {
+          "creativeId": "real-car-parking-3d-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "ba0fd6e096d21036e5a2fd909bc0dfdd89c23c2c2eb44c9f1576e31dea517977",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 715034,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-car-parking-3d/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "real-football-strike-soccer-v1",
+      "gameId": "real-football-strike-soccer",
+      "title": "Real Football Strike Soccer",
+      "enabled": true,
+      "packageName": "com.amz.img.footballstrike.soccerchampion",
+      "asin": "B0BX12HFKP",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BX12HFKP",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "real-football-strike-soccer-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-football-strike-soccer/v1/banner.png",
+          "sha256": "24c36da4a8f3bea4d5d460840827d8c2de8b0af8ff3f09a432fc1d00712ec1b0",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 372152
+        },
+        {
+          "creativeId": "real-football-strike-soccer-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-football-strike-soccer/v1/interstitial-portrait.jpg",
+          "sha256": "efb68adf3da00610fdf11866c4314596f7273d4c27f1c3c678b17e2f0b33c4e8",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 765478
+        },
+        {
+          "creativeId": "real-football-strike-soccer-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-football-strike-soccer/v1/mrec.jpg",
+          "sha256": "9d8165f09ecd65545fba62b4b97e540815463aa2a81b56b1f98a6d54faa2c490",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 535665
+        },
+        {
+          "creativeId": "real-football-strike-soccer-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "f46a59a99ae6edf0fced223f8cc3cb236643a37d9f655c10629eff65668396cc",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 616805,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-football-strike-soccer/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "real-robots-fighting-v1",
+      "gameId": "real-robots-fighting",
+      "title": "Real Robots Fighting",
+      "enabled": true,
+      "packageName": "com.amz.img.robot.fighting.wrestling.game",
+      "asin": "B0C74NJGH3",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C74NJGH3",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "real-robots-fighting-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-robots-fighting/v1/banner.png",
+          "sha256": "820bada86387563c8298cf89403871d18ddf6e86afff70ce9bdcce9da7e28822",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 400404
+        },
+        {
+          "creativeId": "real-robots-fighting-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-robots-fighting/v1/interstitial-portrait.jpg",
+          "sha256": "d9c26575e1bd55cf79c8a9f7ec8ba432d67f1447c5ad25e58403437b4332b8db",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 978593
+        },
+        {
+          "creativeId": "real-robots-fighting-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-robots-fighting/v1/mrec.jpg",
+          "sha256": "3d80cc0aa444c4a6c314140f2efd7c5652b2d55d15a60cc31a676a82c89d592e",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 638391
+        },
+        {
+          "creativeId": "real-robots-fighting-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "828bd11e98454eabc781629cdba16e38d869b3beb8325c97a0a56633425be149",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 663155,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/real-robots-fighting/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "road-builder-construction-simulator-v1",
+      "gameId": "road-builder-construction-simulator",
+      "title": "Road Builder Construction Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.road.construction.city.building.games",
+      "asin": "B0BLCZMMZ6",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BLCZMMZ6",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "road-builder-construction-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/road-builder-construction-simulator/v1/banner.png",
+          "sha256": "68a68707a4176b134b85a912bf266eb46a33812bf5fe9c7232ae00863fda20a3",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 478017
+        },
+        {
+          "creativeId": "road-builder-construction-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/road-builder-construction-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "4fde6f49be6ecfb36f72660528666d5446af67fe5446f1d7a8c49e92d1f32f0d",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1047521
+        },
+        {
+          "creativeId": "road-builder-construction-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/road-builder-construction-simulator/v1/mrec.jpg",
+          "sha256": "04a436d5f18421bd7b00b33c40b509dd1974e522400fed4dc8c5962e7d1eed69",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 690087
+        },
+        {
+          "creativeId": "road-builder-construction-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "35794f0851cee28a28c485f1686c2c8295e23df765dba708bebc1f076a0e52c8",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 752181,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/road-builder-construction-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "us-police-car-chase-v1",
+      "gameId": "us-police-car-chase",
+      "title": "US Police Car Chase",
+      "enabled": true,
+      "packageName": "com.amz.img.highway.police.car.chase.game",
+      "asin": "B0CF9ZQG5M",
+      "storeWebUrl": "https://www.amazon.com/dp/B0CF9ZQG5M",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "us-police-car-chase-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/us-police-car-chase/v1/banner.png",
+          "sha256": "f7802691bfe78448e7e338ae8c1984dc15ba586ae6ebfb18a420e65dafe16175",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 371890
+        },
+        {
+          "creativeId": "us-police-car-chase-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/us-police-car-chase/v1/interstitial-portrait.jpg",
+          "sha256": "d48d5624cfb30b057b5c128c4ed21a29346aa8577a6a06f0176f1efa4478a360",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 710082
+        },
+        {
+          "creativeId": "us-police-car-chase-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/us-police-car-chase/v1/mrec.jpg",
+          "sha256": "60801c5fee7930bc4c648b53ac4e925a6be07f37a980b068e4cf51e15d72ae1e",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 454343
+        },
+        {
+          "creativeId": "us-police-car-chase-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "8aadd2dcceb8ebd403602dda4f89e5a3c60e3251a779d8133a8d7342a614896b",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 445015,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/us-police-car-chase/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "ultimate-lion-simulator-v1",
+      "gameId": "ultimate-lion-simulator",
+      "title": "Ultimate Lion Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.african.wild.lion.simulator",
+      "asin": "B0BLCTP3WC",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BLCTP3WC",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "ultimate-lion-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ultimate-lion-simulator/v1/banner.png",
+          "sha256": "22abe88b99062e8cc0b91cafd2255bc88f76a381821f84d44bc0ffaedf9194e0",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 462249
+        },
+        {
+          "creativeId": "ultimate-lion-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ultimate-lion-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "a9d9ed615c2b7c1b3becab1c9a92c4c65f18d6c071eb148b0560c919a7a62b3d",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 1001463
+        },
+        {
+          "creativeId": "ultimate-lion-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ultimate-lion-simulator/v1/mrec.jpg",
+          "sha256": "543590723b1f9933cbc9d3fb18543711da9357ea01fa984dddb6bb4b2b8d2701",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 670414
+        },
+        {
+          "creativeId": "ultimate-lion-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "eceb7e29243bd2877702b5091209ed7e4aa8524398210417c07da15dbc54a626",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 672819,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/ultimate-lion-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "virtual-chef-kitchen-cooking-v1",
+      "gameId": "virtual-chef-kitchen-cooking",
+      "title": "Virtual Chef Kitchen Cooking",
+      "enabled": true,
+      "packageName": "com.amz.img.virtual.chef.restaurant.manager.cooking.games",
+      "asin": "B0BLCXNSFL",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BLCXNSFL",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "virtual-chef-kitchen-cooking-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-chef-kitchen-cooking/v1/banner.png",
+          "sha256": "b3fbfd44ccfeee1416dd153a6b0b9c03fccf1b4c721d703eaa9f7685b208c76b",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 353029
+        },
+        {
+          "creativeId": "virtual-chef-kitchen-cooking-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-chef-kitchen-cooking/v1/interstitial-portrait.jpg",
+          "sha256": "329901391d4dd87c006dc9baacf94cf189ba76907be89ee114bdbfd7f0b648b2",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 672028
+        },
+        {
+          "creativeId": "virtual-chef-kitchen-cooking-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-chef-kitchen-cooking/v1/mrec.jpg",
+          "sha256": "80866d304c6ee3a4eaa5d195257c35520a5d8bec94a025b0d14b60488eb52cd6",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 435456
+        },
+        {
+          "creativeId": "virtual-chef-kitchen-cooking-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "03bfc4305fa1039a8878aaab00af9a5ed56b5a2ec5b2ddfa6bb556a9656cbbb7",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 538203,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-chef-kitchen-cooking/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "virtual-high-school-simulator-v1",
+      "gameId": "virtual-high-school-simulator",
+      "title": "Virtual High School Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.highschool.teacher.simulator.school.life.games",
+      "asin": "B0BTM2F76N",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BTM2F76N",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "virtual-high-school-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-high-school-simulator/v1/banner.png",
+          "sha256": "c6b115b9a98eecacd5b8c2938dd4b98f6253ca696bbb65838c5b5471956d2ba4",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 346288
+        },
+        {
+          "creativeId": "virtual-high-school-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-high-school-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "e782f787a3be60979e842f85326e94401df62dfb293edab01e62925be64ac32a",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 756763
+        },
+        {
+          "creativeId": "virtual-high-school-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-high-school-simulator/v1/mrec.jpg",
+          "sha256": "d67aef9b0810ba168f47655cd4df86a3b8d0279954045eae407f73e5d8d84ccc",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 541216
+        },
+        {
+          "creativeId": "virtual-high-school-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "3dfacc5ba3ab708e97849f18523d1bd6b1c634749819739767692d4d39f4190a",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 609680,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/virtual-high-school-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "wild-animal-hunting-v1",
+      "gameId": "wild-animal-hunting",
+      "title": "Wild Animal Hunting",
+      "enabled": true,
+      "packageName": "com.amz.img.animal.hunting.gun.shooting.games",
+      "asin": "B0BWS2Z2T8",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BWS2Z2T8",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "wild-animal-hunting-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-animal-hunting/v1/banner.png",
+          "sha256": "ccafc44681c82c8ee0eeb8c2d20aa9faf776e3941e682990b8555607e9b0485c",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 454157
+        },
+        {
+          "creativeId": "wild-animal-hunting-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-animal-hunting/v1/interstitial-portrait.jpg",
+          "sha256": "dfce674e9c8b7991849bff31b575ae4db6b5934dd9042a17ef3c9ea4615049d3",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 997180
+        },
+        {
+          "creativeId": "wild-animal-hunting-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-animal-hunting/v1/mrec.jpg",
+          "sha256": "4b319c11965b36206a93232dd915a65c126b9a5714d4ff7b2b6538caa957ff4d",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 753597
+        },
+        {
+          "creativeId": "wild-animal-hunting-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "d9fa5d7b0d3ef31dab2b828a399fe3de5dc4f0d1b81819abf6f2a610322546bc",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 440748,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-animal-hunting/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "wild-crocodile-simulator-v1",
+      "gameId": "wild-crocodile-simulator",
+      "title": "Wild Crocodile Simulator",
+      "enabled": true,
+      "packageName": "com.amz.img.angry.crocodile.animal.games",
+      "asin": "B0C74BWV6J",
+      "storeWebUrl": "https://www.amazon.com/dp/B0C74BWV6J",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "wild-crocodile-simulator-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-crocodile-simulator/v1/banner.png",
+          "sha256": "d7068c6901648be42ca59cf6c0c54dc3e6669ff5cefe9671508ec9dabbd031d3",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 382770
+        },
+        {
+          "creativeId": "wild-crocodile-simulator-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-crocodile-simulator/v1/interstitial-portrait.jpg",
+          "sha256": "fa838b3032c12c6abc92fb34f689f2680a748fe8c86723e6368a037fbd722b3d",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 951467
+        },
+        {
+          "creativeId": "wild-crocodile-simulator-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-crocodile-simulator/v1/mrec.jpg",
+          "sha256": "b967e16035471092c0f0f2e0ba7542c5dcebd62c96c1921fde12f2888428177f",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 688732
+        },
+        {
+          "creativeId": "wild-crocodile-simulator-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "cd4c5a20b7572210e33d5f6e22a704eecd65478319f6d85744fbc398489eb6c0",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 749447,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wild-crocodile-simulator/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "women-wrestling-championship-v1",
+      "gameId": "women-wrestling-championship",
+      "title": "Women Wrestling Championship",
+      "enabled": true,
+      "packageName": "com.amz.img.girls.fighting.women.wrestling.wwe.games",
+      "asin": "B0BLCRDVSZ",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BLCRDVSZ",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "women-wrestling-championship-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/women-wrestling-championship/v1/banner.png",
+          "sha256": "b58caaf074e95b6d1729e952de745e1126ec5e048f267b7df81e4ad060aed837",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 359097
+        },
+        {
+          "creativeId": "women-wrestling-championship-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/women-wrestling-championship/v1/interstitial-portrait.jpg",
+          "sha256": "161a07694e040362cf5503927acdfeeff7c3fb670811658875cb3178ebeb65fc",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 772364
+        },
+        {
+          "creativeId": "women-wrestling-championship-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/women-wrestling-championship/v1/mrec.jpg",
+          "sha256": "2999b81b696e61edc75921d7b68f4ec71d22246370c4a618a1fb58e6b1d5f6b7",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 544507
+        },
+        {
+          "creativeId": "women-wrestling-championship-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "4c58c6945327d8501bbad9a9892195794a4f1b0e0c6e6f8f3f268ec5543a104b",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 388069,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/women-wrestling-championship/v1/interstitial-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "campaignId": "wrestling-revolution-3d-v1",
+      "gameId": "wrestling-revolution-3d",
+      "title": "Wrestling Revolution 3D",
+      "enabled": true,
+      "packageName": "com.amz.img.pro.wrestling.games.tag.ring.fighting.games",
+      "asin": "B0BL173GQQ",
+      "storeWebUrl": "https://www.amazon.com/dp/B0BL173GQQ",
+      "storeWebUrlsByMarketplace": {},
+      "weight": 1,
+      "startUtc": null,
+      "endUtc": null,
+      "allowedHostPackages": [],
+      "excludedHostPackages": [],
+      "supportedDeviceClasses": [
+        "fire_tablet"
+      ],
+      "minAndroidApi": 22,
+      "maxImpressionsPerSession": 5,
+      "maxImpressionsPerUtcDay": 20,
+      "creatives": [
+        {
+          "creativeId": "wrestling-revolution-3d-banner-v1",
+          "format": "banner",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wrestling-revolution-3d/v1/banner.png",
+          "sha256": "e9b77ff14ca4529f00891ad5d820605a2cc5d4411344d6b889cbe1968f965ff8",
+          "width": 1280,
+          "height": 200,
+          "byteSize": 344519
+        },
+        {
+          "creativeId": "wrestling-revolution-3d-interstitial-v1",
+          "format": "interstitial",
+          "orientation": "portrait",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wrestling-revolution-3d/v1/interstitial-portrait.jpg",
+          "sha256": "39a63606154eaca45358b32be1011665c4b213384fb66ea41d7031803a8d0dea",
+          "width": 1080,
+          "height": 1920,
+          "byteSize": 736344
+        },
+        {
+          "creativeId": "wrestling-revolution-3d-mrec-v1",
+          "format": "mrec",
+          "orientation": "any",
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wrestling-revolution-3d/v1/mrec.jpg",
+          "sha256": "63efcc4252e736c1b273fc0f9b84424953739edc82170b643c5789688bb8c7cf",
+          "width": 1200,
+          "height": 1000,
+          "byteSize": 484664
+        },
+        {
+          "creativeId": "wrestling-revolution-3d-interstitial-landscape-v1",
+          "format": "interstitial",
+          "orientation": "landscape",
+          "sha256": "19df9ca0fa91f1f512e8c6927c67026394d8a0588b40629e2d1b73b2c6fb86bc",
+          "width": 1920,
+          "height": 1080,
+          "byteSize": 435980,
+          "locale": "default",
+          "imageUrl": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/creatives/wrestling-revolution-3d/v1/interstitial-landscape.jpg"
+        }
+      ]
+    }
+  ]
+}
