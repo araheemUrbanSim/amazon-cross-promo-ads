@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/araheemUrbanSim/amazon-cross-promo-ads/main/catalog/v1/catalog.schema.json",
+  "title": "Cross-promotion catalog v1",
+  "description": "Structural contract. Cross-field rules (unique ids, ASIN inside storeWebUrl, aspect ratios, allowed hosts, hashes) are enforced by tools/validate_catalog.py and by the Unity module's CatalogValidator. Enabled campaigns must not contain empty values or REPLACE_* placeholders.",
+  "type": "object",
+  "required": ["schemaVersion", "catalogVersion", "generatedAtUtc", "enabled", "campaigns"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": { "type": "string", "minLength": 1, "maxLength": 64 },
+    "generatedAtUtc": { "type": "string", "format": "date-time" },
+    "enabled": { "type": "boolean", "description": "Global kill switch. false => every game shows NoFill after its next successful catalog fetch." },
+    "campaigns": { "type": "array", "maxItems": 500, "items": { "$ref": "#/$defs/campaign" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "campaign": {
+      "type": "object",
+      "required": ["campaignId", "gameId", "title", "enabled", "packageName", "asin", "storeWebUrl", "weight", "maxImpressionsPerSession", "maxImpressionsPerUtcDay", "creatives"],
+      "properties": {
+        "campaignId": { "type": "string", "maxLength": 128 },
+        "gameId": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 256 },
+        "enabled": { "type": "boolean", "description": "Per-campaign kill switch." },
+        "packageName": { "type": "string", "maxLength": 200, "description": "Android application id. Never derived from a title or ASIN." },
+        "asin": { "type": "string" },
+        "storeWebUrl": { "type": "string", "maxLength": 512 },
+        "storeWebUrlsByMarketplace": { "type": "object", "description": "Reserved; not read by the current Unity module." },
+        "weight": { "type": "integer", "minimum": 0, "description": "0 disables selection." },
+        "startUtc": { "type": ["string", "null"], "format": "date-time" },
+        "endUtc": { "type": ["string", "null"], "format": "date-time" },
+        "allowedHostPackages": { "type": "array", "items": { "type": "string" }, "description": "Empty = every host except exclusions and the target itself." },
+        "excludedHostPackages": { "type": "array", "items": { "type": "string" } },
+        "supportedDeviceClasses": { "type": "array", "items": { "enum": ["fire_tablet", "fire_tv", "android_other"] } },
+        "minAndroidApi": { "type": "integer", "minimum": 0 },
+        "maxImpressionsPerSession": { "type": "integer", "minimum": 0, "description": "Campaign total across formats on one host installation. 0 = never serve." },
+        "maxImpressionsPerUtcDay": { "type": "integer", "minimum": 0, "description": "Campaign total across formats on one host installation. 0 = never serve." },
+        "creatives": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/creative" } }
+      },
+      "additionalProperties": true
+    },
+    "creative": {
+      "type": "object",
+      "required": ["creativeId", "format", "orientation", "locale", "imageUrl", "sha256", "width", "height", "byteSize"],
+      "properties": {
+        "creativeId": { "type": "string", "maxLength": 128 },
+        "format": { "enum": ["banner", "mrec", "interstitial"] },
+        "orientation": { "enum": ["any", "portrait", "landscape"] },
+        "locale": { "type": "string" },
+        "imageUrl": { "type": "string", "maxLength": 512, "pattern": "^https://" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "width": { "type": "integer", "minimum": 1, "maximum": 2048 },
+        "height": { "type": "integer", "minimum": 1, "maximum": 2048 },
+        "byteSize": { "type": "integer", "minimum": 1, "maximum": 3145728 }
+      },
+      "additionalProperties": true
+    }
+  }
+}
