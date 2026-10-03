@@ -1,0 +1,68 @@
+name: Deploy analytics dashboard to GitHub Pages
+
+# Publishes ONLY the static dashboard (dashboard/). Events, databases and secrets never touch this repository:
+# the collector runs elsewhere (see docs/ANALYTICS_DASHBOARD.md). Pages is served over HTTPS at
+# https://<owner>.github.io/amazon-cross-promo-ads/
+
+on:
+  push:
+    branches: [main]
+    paths: ['dashboard/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dashboard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: dashboard/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+        env:
+          VITE_BASE: /amazon-cross-promo-ads/
+      # Public runtime config. ANALYTICS_API_URL is a repository *variable* (Settings > Secrets and variables > Actions >
+      # Variables), not a secret: it is just the public address of your collector. Leave it unset to keep the committed default.
+      - name: Write public config.json
+        env:
+          ANALYTICS_API_URL: ${{ vars.ANALYTICS_API_URL }}
+          ENVIRONMENT_LABEL: ${{ vars.ENVIRONMENT_LABEL }}
+        run: |
+          if [ -n "$ANALYTICS_API_URL" ]; then
+            node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync('dist/config.json','utf8'));c.apiBaseUrl=process.env.ANALYTICS_API_URL;c.environmentLabel=process.env.ENVIRONMENT_LABEL||'';fs.writeFileSync('dist/config.json',JSON.stringify(c,null,2)+'\n')"
+          fi
+          cat dist/config.json
+      - name: Fail if a secret-looking value ended up in the bundle
+        run: |
+          if grep -rEl "ADMIN_TOKEN|REPORT_TOKENS|ghp_[A-Za-z0-9]{20,}|github_pat_" dist; then echo "secret-like string found in dist"; exit 1; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
