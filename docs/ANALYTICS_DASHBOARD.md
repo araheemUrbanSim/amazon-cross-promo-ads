@@ -72,25 +72,26 @@ There are no fixtures in the frontend; dev data comes from the real backend, so 
 | Real-browser axe-core incl. colour contrast on Overview, Games, Reports, Diagnostics | **0 violations** |
 | Responsive screenshots | `docs/screenshots/` desktop (1440), mobile (375, no horizontal scroll). A true tablet-width screenshot was not captured. |
 | Deep-link refresh (`#/games/<id>`) with production base path | works (HashRouter) |
-| Unity: `sdk_version` added to events; build `crosspromo-demo-e2e-test.apk` created | built; **not installed (device offline)** |
+| Unity: `sdk_version` added to events; EditMode tests | 129/129 pass; build installed and used in the tablet test below |
 
-## Fire tablet end-to-end test: NOT RUN
+## Fire tablet end-to-end test (2026-10-03): PASSED for the device -> collector -> dashboard path
 
-Blocker: when attempted, `adb devices` listed no device (serial `GCC1AR06212500V5` not found: tablet unplugged / USB debugging off). Nothing about the device flow is claimed as passed.
+Device: Amazon KFONWI, serial `GCC1AR06212500V5`, Fire OS 7 / API 28. Build `crosspromo-demo-e2e-test.apk` (development build, `markAllEventsAsTest=true`, `sdk_version 1.1.0`), installed with `adb install -r` (app data preserved, nothing uninstalled). A **separate** collector (`DB_PATH=data/e2e-test.db`, port 8789) was reached through `adb reverse tcp:8787 tcp:8789`; the dashboard (local preview of the production build) pointed at it. Evidence: `docs/e2e-evidence/` and `F:\Test Projects\Evidence\dashboard-e2e\`.
 
-Exact remaining steps (tablet connected, `ADB="F:\Unity Software\2022.3.62f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe"`, `S=GCC1AR06212500V5`):
+| Step | Result |
+|---|---|
+| Baseline | Test environment: 0 events. Production environment: 20 older events from earlier sessions (they were still queued on the device and arrived late, a delayed-upload example). |
+| Show banner, MREC, interstitial portrait x3, interstitial landscape x1; tap each once | Device journal: 6 impressions + 6 clicks + 6 store attempts + 6 results, all `is_test=true`, `sdk_version 1.1.0`. Collector and dashboard (Environment = Test): **6 impressions, 6 clicks, 6 games with activity, 100% CTR** (clicks on cached creatives; CTR is uncapped, as designed). By format: interstitial 4, banner 1, MREC 1; landscape filter 1. |
+| Amazon purchase popup | Opened on banner, interstitial portrait and landscape clicks (Cancel pressed, DOWNLOAD never pressed). The MREC campaign (Wild Animal Hunting) fell back to the Amazon detail page showing "Currently unavailable" on this tablet. No download or install was triggered by the test. |
+| True offline | Wi-Fi off **and** the adb reverse removed (the reverse tunnel is USB, so Wi-Fi off alone does not cut the uploader; my first attempt was invalid for that reason and is not counted). Preloaded interstitial shown + tapped offline: device `queued 4`, upload error "Cannot connect", server totals unchanged (4/4). Force-stop and relaunch: `queued 4` persisted. Network + reverse restored: all 4 delivered (`uploaded 4/4`), server totals +1 impression/click/attempt/result. |
+| Resend | The 4 delivered events POSTed again directly: response `accepted 0, duplicates 4, rejected 0`; totals unchanged (5/5/5 at that point). Diagnostics shows the 4 duplicates. |
+| Test vs production separation | Production environment stayed at the 20 pre-existing events; test events appeared only under Environment = Test. |
+| Unauthorised access | No key: HTTP 401 on reports. |
 
-1. Start a *separate* test collector: `ADMIN_TOKEN=... REPORT_TOKENS=... CORS_ORIGINS=http://127.0.0.1:4173 INVENTORY_PATH=./inventory/games.json DB_PATH=./data/e2e-test.db PORT=8789 node dist/src/index.js`; serve the dashboard with `apiBaseUrl` = `http://127.0.0.1:8789`; capture baseline totals with Environment = Test.
-2. `& $ADB -s $S reverse tcp:8787 tcp:8789` (the demo build posts to `127.0.0.1:8787`).
-3. Update (data preserved, never uninstall): `& $ADB -s $S install -r "F:\Test Projects\Builds\crosspromo-demo-e2e-test.apk"` (events are flagged `is_test`).
-4. In the demo show banner, MREC, interstitial (portrait, rotate for landscape); tap each once. Dashboard (Environment = Test) should show exactly those impressions/clicks. Compare with the device queue (`& $ADB -s $S exec-out run-as <package> cat files/...` events file in the dev build).
-5. Offline: `& $ADB -s $S shell svc wifi disable; svc data disable`, generate events, force-stop and relaunch, re-enable networking; confirm delivery and that totals equal the number generated.
-6. Resend: replay one logged event (`curl` its JSON to the collector); totals must not change; Diagnostics shows the duplicate.
-7. Tap an ad once more in Amazon dialog mode on a campaign whose dialog needs confirmation; confirm the Amazon popup opens (do not press DOWNLOAD).
-8. Production Environment must still show none of these events.
+Not covered by this run: the hosted-HTTPS path (release builds require HTTPS; this used a development build over loopback), a physical tablet-width screenshot of the dashboard, and the retried-batch-after-lost-response case on the device itself (covered by the backend tests).
 
 ## Status and exact missing inputs
 
 * Code, tests and the Pages workflow are complete locally; **nothing is pushed or deployed**: the PC's git credentials belong to `araheem-wanitek`, while the repo owner is `araheemUrbanSim`, and the browser session is signed out of GitHub (Pages settings unreadable).
 * **No live URL is reported**, because the dashboard cannot show real data without a reachable HTTPS collector.
-* Missing inputs: (1) push access (`git push` from an account with write access) and Pages source = GitHub Actions; (2) a hosting account for the collector with a persistent volume (and its HTTPS URL for `ANALYTICS_API_URL` / games' `analyticsEndpoint`); (3) the tablet connected for the physical test.
+* Missing inputs: (1) push access (`git push` from an account with write access) and Pages source = GitHub Actions; (2) a hosting account for the collector with a persistent volume (and its HTTPS URL for `ANALYTICS_API_URL` / games' `analyticsEndpoint`); and, for production, re-enabling real (non-test) events in the shipping games.
